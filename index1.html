@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Assistant Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .chatbox {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .chatbox input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        .chatbox button {
+            padding: 10px 20px;
+        }
+        .response {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbox">
+        <h1>Farmer's Assistant Chatbot</h1>
+        <input type="text" id="question" placeholder="Ask a question...">
+        <button onclick="getResponse()">Submit</button>
+        <div class="response" id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
